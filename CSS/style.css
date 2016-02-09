@@ -3,6 +3,8 @@ body{
 }
 nav {
     background-color:#76CBFA;
+    height: 4.4em;
+    margin-bottom: 2em;
 }
 
 nav ul {
@@ -11,28 +13,35 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    margin: 1em;
+    margin: 1.4em 2em;
 }
 nav ul li a{
     color: white;
 }
 header {
     background-image: url("/images/header.png");
+    height: 730px;
 }
 
  header h1 {
      color: white;
      margin: 0;
+     padding: 1em 0;
  }
 
  header img{
      margin: auto;
  }
+ .div_image{
+     background-color: white;
+     padding: 2em;
+ }
  .div_marge{
-     padding: 1em;
+     padding: 2em 0;
  }
 .div_marge h2 {
     font-size: 1.6em;
+    margin-bottom: 2em;
 }
 .div_marge h3 {
     font-size: 1em;
@@ -71,12 +80,16 @@ header {
 .integer p{
     margin-top: 1em;
 }
+
 .colonne_sidebar ul{
     list-style: none;
     padding-left: 0;
 }
 .fond_gris{
     background-color: #F1F1F1;
+}
+.fond_gris .row{
+    padding: 1em;
 }
 .li_sidebar1{
     margin-top: 1em;
@@ -98,6 +111,48 @@ header {
 .last_li2 {
     border: none;
 }
+.fond_gris_clair{
+    padding: 0;
+    background-color: #ECECEC;
+}
+.fond_blanc{
+    background-color: white;
+    padding: 2em;
+    line-height: 2;
+    font-style: italic;
+}
+#john{
+    color: black;
+}
+.div_marge ul {
+    list-style: none;
+}
+.div_marge ul li{
+    margin: 0.5em 0;
+}
+#li_middle{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+em {
+    display: block;
+}
+.espace_photo{
+    margin-top: 1em;
+}
+.bold{
+    font-weight: bold;
+}
+.margin_col{
+    margin-bottom: 3em;
+}
+#collection{
+    margin-top: 1em;
+}
 footer{
     background-color: #D4D4D4;
+}
+footer p{
+    padding: 1em;
+    margin: 0;
 }
